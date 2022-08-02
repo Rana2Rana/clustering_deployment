@@ -27,7 +27,7 @@ Follow these steps to run the program:
 13. Release the container  using this syntax in the terminal `heroku container:release web --app clustering_application`
 
 ### Program flow  
-![flowchart](static\flask-deployment.jpg)
+![flowchart](static/flask-deployment.jpg)
 
 ### Output
-![webapp](static\clustering_web_application.png)
+![webapp](static/clustering_web_application.png)
