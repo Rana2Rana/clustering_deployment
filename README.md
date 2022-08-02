@@ -3,7 +3,7 @@
 
 ### Description  
 
-The project is based on Machine Learning. The objective is to make a model to predict the new client belong to which cluster based on data of 10,000 bank's clients.
+The project is based on Machine Learning. The objective is to deploy a web-application using flask and heroku model to predict the new client belong to which cluster based on data of 10,000 bank's clients.
 
 ### Installation
 The libraries on the `requirements.txt` should be installed in order to run the program.
@@ -27,4 +27,3 @@ Follow these steps to run the program:
 
 ### Output
 ![webapp](clustering_web_application.png)
-
