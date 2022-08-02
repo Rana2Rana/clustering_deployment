@@ -12,17 +12,19 @@ Use `pip install requirements.txt` for installation.
 ### Usage  
 Follow these steps to run the program:
 
-1. Download the main branch of the repository. Along with the `README.md`, it consists of two folders `preprocessing`,  `predict` and the model file `KmeansModel.joblib`
-2. Install the libraries in `requirements.txt`.
-3. Save the provided data in the json format in the repository folder.
-4. Go to folder `preprocessing` and run the `data_preprocessing.ipynb` to have a clean dataset for the model.
-5. Go to folder `predict` and run the `model.ipynb` to train the model and save it.
-6. Ran the `app.py` to create the web-application .
-7. Install the `Dockerfile`.
-8. Build the image using this syntax in the terminal `docker build -t clustering_application` 
-9. Run the container using this syntax in the terminal `docker run -d -p 5000:5000 clustering_application`
-10. Login heroku using this syntax in the terminal `heroku container:login`
-11. Deploy the application in `heroku` 
+1. Download the main branch of the repository. Along with the `README.md`, it consists of three folders `churn_main`, `templates` and `static`
+2. Start with `churn_main`, which consists of two folders `preprocessing`,  `predict` and the model file `KmeansModel.joblib`
+3.Install the libraries in `requirements.txt`.
+4. Save the provided data in the json format in the repository folder.
+5. Go to folder `preprocessing` and run the `data_preprocessing.ipynb` to have a clean dataset for the model.
+6. Go to folder `predict` and run the `model.ipynb` to train the model and save it.
+7. Ran the `app.py` to create the web-application .
+8. Install the `Dockerfile`.
+9. Build the image using this syntax in the terminal `docker build -t clustering_application` 
+10. Run the container using this syntax in the terminal `docker run -d -p 5000:5000 clustering_application`
+11. Login heroku using this syntax in the terminal `heroku container:login`
+12. Create the container onto `Heroku` using this syntax in the terminal `heroku container:push web --app clustering_application`
+13. Release the container  using this syntax in the terminal `heroku container:release web --app clustering_application`
 
 ### Program flow  
 ![flowchart](flask-deployment.jpg)
