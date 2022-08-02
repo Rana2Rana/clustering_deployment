@@ -23,12 +23,8 @@ Follow these steps to run the program:
 9. Deploy the application in `heroku`
 
 ### Program flow  
-![flowchart](Machine_Learning_Workflow.jpg)
+![flowchart](flask-deployment.jpg)
 
 ### Output
 ![webapp](clustering_web_application.png)
-### Future works
-1. Improve the code to predict the current revenue as there are many Null values in the current revenue.
-2. Prediction based on company category and detecting and handling the outliers.
-3. Minimize the zero values in the staff cost based on the staff count.
-4. Fine tuning the hyperparameters.
+
