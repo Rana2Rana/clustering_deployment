@@ -29,5 +29,9 @@ Follow these steps to run the program:
 ### Program flow  
 ![flowchart](static/flask-deployment.jpg)
 
-### Output
-![webapp](static/clustering_web_application.png)
+### Web Application 
+![webapp](static/clustering_web_application.png)  
+
+### Result view
+![webapp](static/clustering_result.png)
+
