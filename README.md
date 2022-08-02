@@ -19,8 +19,10 @@ Follow these steps to run the program:
 5. Go to folder `predict` and run the `model.ipynb` to train the model and save it.
 6. Ran the `app.py` to create the web-application .
 7. Install the `Dockerfile`.
-8. Build the image and container based on the `Dockerfile`.
-9. Deploy the application in `heroku`
+8. Build the image using this syntax in the terminal `docker build -t clustering_application` 
+9. Run the container using this syntax in the terminal `docker run -d -p 5000:5000 clustering_application`
+10. Login heroku using this syntax in the terminal `heroku container:login`
+11. Deploy the application in `heroku` 
 
 ### Program flow  
 ![flowchart](flask-deployment.jpg)
