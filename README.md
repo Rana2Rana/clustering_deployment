@@ -32,6 +32,6 @@ Follow these steps to run the program:
 ### Web Application 
 ![webapp](static/clustering_web_application.png)  
 
-### Result view
+### Result View
 ![webapp](static/clustering_result.png)
 
